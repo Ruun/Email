@@ -1015,7 +1015,7 @@ Nav Menu style
 Home Section style
 ==================*/
 .home{
-    background: url(/header.jpg) no-repeat bottom center;
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.pexels.com%2Fphotos%2F315057%2Fpexels-photo-315057.jpeg&f=1&nofb=1&ipt=d5d7af835328746d575fe2960eb510086509ac858f3ebebcbfe57466b10f8013&ipo=images") no-repeat bottom center;
     background-size: cover;
     position: relative;
 }
