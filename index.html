@@ -42,7 +42,6 @@
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="css/responsive.css" />
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
 
@@ -92,12 +91,12 @@
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">                   
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">      
+                            <li><a href="#home">Home</a></li>             
                             <li><a href="#about">About</a></li>                    
-                            <li><a href="#service">Services</a></li>                    
-                            <li><a href="#portfolio">Portfolio</a></li>                    
-                            <li><a href="#pricing">Pricing</a></li>                    
-                            <li><a href="#blog">Blog</a></li>                    
+                            <li><a href="#team">Team</a></li>                    
+                 <!--  l -->           <li><a href="#effects">Effect</a></li>                    
+                            <li><a href="#pricing">Pricing</a></li>                                    
                             <li><a href="#contact">Contact</a></li>  
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -112,8 +111,8 @@
 
             <!--Home Sections-->
 
-            <section id="hello" class="home bg-mega">
-                <div class="overlay"></div>
+            <section id="hello"   class="home bg-mega" >
+                <div class="overlay" id="home"></div>
                 <div class="container">
                     <div class="row">
                         <div class="main_home">
@@ -122,8 +121,8 @@
                             </div>
 
                             <div class="home_btns m-top-40">
-                                <a href="#" target="_blank" class="btn btn-primary m-top-20">GET STARTED</a>
-                                <a href="#" target="_blank" class="btn btn-default m-top-20">THE TEAM</a>
+                                <a href="#about"  class="btn btn-primary m-top-20" >GET STARTED</a>
+                                <a href="#team"  class="btn btn-default m-top-20" >THE TEAM</a>
                             </div>
 
                         </div>
@@ -133,6 +132,173 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+
+
+                    <!--About Sections-->
+                    <section id="about" class="about roomy-100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="main_about">
+                                    <div class="col-md-6">
+                                        <div class="about_content">
+                                            <h2>What is it?</h2>
+                                            <div class="separator_left"></div>
+        
+                                            <p style="font-size: 22px; color: black;">The email was a by-product of the World Wide Web after consumers struck a chord with 
+                                                many of its communications benefits. The first users of the messaging platform were educational
+                                                 systems and the military. <a href="#ref" onclick="alert('The reference is on your left - Ruan S.');">[1]​ </a><br>
+                                                   <br>
+                                                People in groups such as colleges would use the portal to exchange information 
+                                                before Microsoft launched the first public messaging system known as Hotmail. <a href="#ref" onclick="alert('The reference is on your left Ruan S.');">[1]​ </a><br></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="about_accordion wow fadeIn">
+                                            <div id="faq_main_content" class="faq_main_content ">
+                                            
+                                                <h6 class="open"><i class="fa fa-angle-right " id="ref"></i> REFERENCE</h6>
+                                                <div class="open">
+                                                    <div class="content">
+                                                        <p style="font-size: larger;"><a target="_blank" href="https://innovationmanagement.se/2018/02/02/how-the-innovation-of-the-email-changed-communication-and-performance-in-business/"> [1]How the Innovation of the Email Changed 
+                                                            Communication and Performance in Business - InnovationManagement</a> </p>
+                                                    </div>
+                                                </div> <!-- End off accordion item-2 -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                    </div><!--End off row-->
+                                </div><!--End off container -->
+
+
+
+
+
+
+
+
+
+
+                            </div><!--End off row-->
+                        </div><!--End off container -->
+                            </div><!--End off row-->
+                        </div><!--End off container -->
+                    </section> <!--End off About section -->
+
+
+
+
+                    <section class="zz" id="effects"> <!--section on the effects of E-MAIL-->
+
+                        <h1 style="color: aliceblue; text-align: center;">POSITIVE AND NEGATIVE EFFECTS</h1>
+                        <br>
+                        <div class="tabs">
+                            
+                            <div class="tab-2">
+                                
+                    
+                              <label for="tab2-1">POSITIVES EFFECT</label>
+                              <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+                              <div>
+                                <h4>POSITIVE EFFECTS</h4>
+                                  <p>
+                                    - Increased the speed of communication​ <br>
+<br>
+                                   - Proof/Record of communication is available​<br>
+                                    <br>
+                                    - Reduces cost of communication​<br>
+                                    <br>
+                                    - Saves paper <br></p>
+                              </div>
+                            </div>
+                            <div class="tab-2">
+                              <label for="tab2-2">NEGATIVES EFFECTS</label>
+                              <input id="tab2-2" name="tabs-two" type="radio">
+                              <div>
+                                <h4>NEGATIVES EFFECTS</h4>
+                                <p>- Sensitive information can be easily compromised​<br>
+                                    <br>
+                                    - Reduced human interaction​<br>
+                                    <br>
+                                    - Spam​<br>
+                                    <br>
+                                   - Virus attacks via email <br></p>
+                              </div>
+                            </div>
+                          </div>
+                    
+                    
+                    </section>
+
+
+
+<!--our team section-->
+
+<section style="background-color: whitesmoke;" id="team">
+
+    <div class="container">
+        <br>
+        <h2 style="text-align: center;">OUR TEAM</h2>
+        <br>
+        <div class="row">
+            <div class="skill_bottom_content text-center" >
+                <div class="col-md-3">
+                    <div class="skill_bottom_item">
+
+                           <img src="lion.JPG" alt="an image of a Lion" style="width: 80px; height: 80px; border-radius: 50%;">
+
+                        <div class="separator_small"></div>
+                        <h5><em>Ruan S.</em></h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill_bottom_item">
+                        <img src="img.png" alt="Default profile picture" style="width: 80px; height: 80px; border-radius: 50%;">
+                        <div class="separator_small"></div>
+                        <h5><em>Noah P.</em></h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill_bottom_item">
+                        <img src="img.png" alt="Default profile picture" style="width: 80px; height: 80px; border-radius: 50%;">
+                        <div class="separator_small"></div>
+                        <h5><em>Jasmine</em></h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill_bottom_item">
+                        <img src="img.png" alt="Default profile picture" style="width: 80px; height: 80px; border-radius: 50%;">
+                        <div class="separator_small"></div>
+                        <h5><em>Maharshi P.</em></h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill_bottom_item">
+                        <img src="img.png" alt="Default profile picture" style="width: 80px; height: 80px; border-radius: 50%;">
+                        <div class="separator_small"></div>
+                        <h5><em>Divine</em></h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="skill_bottom_item">
+                        <img src="img.png" alt="Default profile picture" style="width: 80px; height: 80px; border-radius: 50%;">
+                        <div class="separator_small"></div>
+                        <h5><em>Kyle T.</em></h5>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            
+
+</section><!--end of our team section-->
+                   
+
+
+
 
 
 
@@ -244,6 +410,8 @@
         <script src="js/bootsnav.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
         <script src="js/script.js" async defer></script>
     </body>
