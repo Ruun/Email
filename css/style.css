@@ -1145,33 +1145,6 @@ FAQ Page
 
 
 /*
-Video Section style
-======================*/
-.video{
-    background: url(../images/background/video.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
-}
-.main_video{
-    display: block;
-    /*z-index: 2;*/
-    /*position: relative;*/
-}
-.main_video i,
-.main_video span.fa,
-.main_video span.icon{
-    color:#fff;
-    font-size:3rem;
-    border:2px solid #fff;
-    width:80px;
-    height: 80px;
-    line-height: 80px;
-    border-radius: 50%;
-    position: relative;
-}
-
-
-/*
 Featured section style
 ========================*/
 .main_featured .head_title{
@@ -1532,30 +1505,7 @@ Brand Section style
     padding: 10px;
 }
 
-/*
-Subscribe Section style
-=====================*/
-.subscribe{
-    background: url(../images/background/subscribe.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
-}
-.main_subscribe{
-    width:100%;
-    display: block;
-}
-.main_subscribe .subscribe_btns .form-group{
-    width:60%;
-    display: inline-block;
-}
-.main_subscribe .subscribe_btns .form-group #inputEmail2{
-    width:100%;
-    background-color: transparent;
-    color:#fff;
-}
-.main_subscribe .subscribe_btns button.btn{
-    /*width:15%;*/
-}
+
 
 
 /*
@@ -1636,34 +1586,6 @@ Footer Section style
 .main_footer i {
     padding: 0px 5px;
     color: #ff0000;
-}
-
-
-
-/*maps*/
-.main_maps{
-    width:100%;
-    height: 100%;
-}
-.main_maps .map_canvas_icon{
-    position:absolute;
-    left:45%;
-    top:35%;
-    cursor:pointer;
-    /*z-index: 2;*/
-}
-.main_maps i{
-    font-size:2.5rem;
-    color:#f38181;
-
-}
-.main_maps  h2{
-    color:#f38181;
-}
-
-.mapheight{
-    height: 100px; 
-    width: 100%;
 }
 
 
